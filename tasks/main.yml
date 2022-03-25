@@ -1,0 +1,14 @@
+---
+- name: Configure bash
+  tags:
+    - shell
+  block:
+  - name: Push our bashrc
+    copy:
+      src: bashrc
+      dest: ~/.bashrc
+
+  - name: Push our aliases
+    copy:
+      src: aliases
+      dest: ~/.aliases
