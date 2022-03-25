@@ -1,11 +1,11 @@
-# ansible bash configuration role
+# Ansible Bash Configuration Role
 
 This role installs a simple bashrc for the `remote_user` based on
 [sensible.bash](https://github.com/mrzool/bash-sensible) and a short aliases file.
 
-## Example playbook
+## Example Playbook
 
-```ansible
+```yml
 ---
 - hosts: all
   roles:
